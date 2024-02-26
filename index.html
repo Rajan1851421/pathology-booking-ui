@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light  fixed-top"
+            style="background-color: rgb(186, 85, 211);">
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
+                    aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation"
+                    onclick="toggleSidebar()">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="d-flex flex-row bd-highlight mb-3">
+                    <div class=" bd-highlight">DCH12345</div>
+
+                    <div class=" bd-highlight bg-light mx-5 rounded"><i class="fa-solid fa-plus-minus mx-2"></i></div>
+
+                </div>
+                <!-- <div class="flex  align-items-center">
+                    <p>DCH1234</p>
+
+                    <span class="border border-light"><i class="fa-solid fa-plus-minus mx-2"></i></span>
+                </div> -->
+
+
+                <!-- Right links -->
+                <div class="d-flex flex-row bd-highlight mr-10">
+                    <div class="px-4 bd-highlight border border-light text-light rounded">Ladger Bal:140/- </div>
+                    <div class="px-4 bd-highlight border border-light mx-4 text-light rounded ">ABHA</div>
+                    <div class=" px-4 bd-highlight  "><i class="fa-regular fa-clipboard h4"></i></div>
+                    <div class="px-4 bd-highlight   bd-highlight"> <img
+                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
+                            height="35" alt="Avatar" loading="lazy" /></div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
+
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar bg-light mt-lg-0 mt-md-0 sm-mt-10">
+        <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4 ">
+                <ul class="list-unstyled overflow-auto" style="max-height: 80vh;">
+                    <li class="mt-4 d-lg-block d-md-block d-sm-block d-none"><a href=""
+                            class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-house  mx-2 " style="color:rgb(186, 85, 211);"></i>Home</a></li>
+                    <li class="mt-4"><a href="/booking.html" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-clipboard-list mx-2" style="color:rgb(186, 85, 211);"></i>
+                            Booking List</a></li>
+                    <li class="mt-4"><a href="/booking.html" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-square-plus mx-2" style="color:rgb(186, 85, 211);"></i>New
+                            Bookings</a></li>
+                    <li class="mt-4"><a href="collection.html" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-droplet mx-2" style="color:rgb(186, 85, 211);"></i>Sample
+                            collections</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-person-walking mx-2" style="color:rgb(186, 85, 211);"></i>Sample
+                            Transfer</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-book-open mx-2" style="color:rgb(186, 85, 211);"></i>Ladger</a></li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-plus-minus mx-2" style="color:rgb(186, 85, 211);"></i>Estimate</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-file-invoice mx-2" style="color:rgb(186, 85, 211);"></i>Invoice</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-hand-holding-dollar mx-2" style="color:rgb(186, 85, 211);"></i>Manual
+                            Settlement</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-circle-dollar-to-slot mx-2"
+                                style="color:rgb(186, 85, 211);"></i>Recharge</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-circle-dollar-to-slot mx-2"
+                                style="color:rgb(186, 85, 211);"></i>Recharge</a>
+                    </li>
+                    <li class="mt-4"><a href="" class="text-decoration-none mt-2">
+                            <i class="fa-solid fa-circle-dollar-to-slot mx-2"
+                                style="color:rgb(186, 85, 211);"></i>Recharge</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center text-md-start sm-text-h6 md-text-h3 lg-text-h2 sm-mt-10">Dashboard</h2>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <span class="d-block">26/02/2024</span>
+                </div>
+            </div>
+            <div class="row">
+                <span>Booking</span>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-lg "
+                        style="max-width: 540px; background: rgb(36,52,187);
+                    background: linear-gradient(90deg, rgba(36,52,187,0.9668242296918768) 0%, rgba(252,69,251,0.969625350140056) 100%);">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="https://avatars.githubusercontent.com/u/105105537?v=4"
+                                    class="img-fluid rounded-circle bg-light" style="height: 50px;" alt="...">
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-light fw-bold">0</p>
+                                    <p class="card-text text-light fw-bold">Total</p>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-lg "
+                        style="max-width: 540px; background: rgb(36,52,187);
+                    background: linear-gradient(90deg, rgba(36,52,187,0.9668242296918768) 0%, rgba(252,69,251,0.969625350140056) 100%);">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="https://cdn-icons-png.freepik.com/256/8482/8482779.png?uid=R131980866&ga=GA1.1.108132751.1702923772&"
+                                    class="img-fluid rounded-circle bg-light" style="height: 50px;" alt="...">
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-light fw-bold">0</p>
+                                    <p class="card-text text-light fw-bold">Total</p>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-xl "
+                        style="max-width: 540px; background: rgb(36,52,187);
+                    background: linear-gradient(90deg, rgba(36,52,187,0.9668242296918768) 0%, rgba(252,69,251,0.969625350140056) 100%);">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="https://cdn-icons-png.freepik.com/256/8482/8482779.png?uid=R131980866&ga=GA1.1.108132751.1702923772&"
+                                    class="img-fluid rounded-circle bg-light" style="height: 50px;" alt="...">
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-light fw-bold">0</p>
+                                    <p class="card-text text-light fw-bold">Total</p>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-lg "
+                        style="max-width: 540px; background: rgb(36,52,187);
+                    background: linear-gradient(90deg, rgba(36,52,187,0.9668242296918768) 0%, rgba(252,69,251,0.969625350140056) 100%);">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img src="https://cdn-icons-png.freepik.com/256/8482/8482779.png?uid=R131980866&ga=GA1.1.108132751.1702923772&"
+                                    class="img-fluid rounded-circle bg-light" style="height: 50px;" alt="...">
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-light fw-bold">0</p>
+                                    <p class="card-text text-light fw-bold">Total</p>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Main layout-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        function toggleSidebar() {
+            var sidebarMenu = document.getElementById('sidebarMenu');
+            var sidebarButton = document.querySelector('.navbar-toggler');
+            if (sidebarMenu.classList.contains('show')) {
+                sidebarMenu.classList.remove('show');
+            } else {
+                sidebarMenu.classList.add('hide');
+            }
+        }
+    </script>
+</body>
+
+</html>
